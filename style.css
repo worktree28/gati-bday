@@ -1,0 +1,149 @@
+header h1{
+	color: white;
+	font-family: century-gothic;
+	font-size: 40px;
+	line-height: 20px;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 40px;
+	text-align: center;
+	text-shadow: 0 1px 1px #fff;
+	
+}
+body{
+	background-color: black;
+	background-color:  #98d9e1;
+	background-image: linear-gradient(315deg, #cba3db 0%, #b86cd6e1 74%);
+	background-attachment: scroll;
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+}
+header span{
+	width: 100px;
+	height: 10px;
+	background-color: #4e03e1;
+	display: block;
+	text-align: center;
+	margin: 15px auto; 
+}
+.container {
+	
+}
+.rishta{
+	
+	width: 200px;
+	height: auto;
+	filter: blur(0);
+}
+.box1{
+	position: relative;
+	overflow: hidden;
+}
+.danger{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+.box1:hover:before{
+	opacity: 1;
+	border-radius: 80px;
+}
+.box1 img{
+	width: 100%;
+	height: auto;
+	transition: all 0.4s linear;
+	border: black;
+}
+.iiii:hover {
+	opacity: 1;
+	transform: scale(1);
+	filter: blur(4px);
+}
+.box1 .box-content{
+	color: #fff;
+	width: 100%;
+	transform: translateY(-50%) scale(0);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	opacity: 0;
+	transition: all 0.4s linear;
+}
+.box1:hover .box-content{
+	transform: translateY(-50%) scale(.5);
+	opacity: 1;
+	border-radius: 30px;
+}
+.box1 .box-content .title1{
+	margin: 0;
+}
+
+.box1 .box-content .post{
+	font-size: 20px;
+	text-transform: capitalize;
+}
+.box{
+	position: relative;
+	overflow: hidden;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	text-align: center;
+	border: black 0px;
+	margin-top: 30px;
+}
+.box:before{
+	content: '';
+	position: absolute;
+	background: linear-gradient(to right, #333232, #121213);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.4s linear;
+	border-color: black;
+	border-width: 20px;
+}
+.box:hover:before{
+	opacity: 1;
+	border-radius: 80px;
+}
+.box img{
+	width: 100%;
+	height: auto;
+	transition: all 0.4s linear;
+	border: black;
+}
+.box:hover img{
+	opacity: 0;
+	transform: scale(2);
+}
+.box .box-content{
+	color: #fff;
+	width: 100%;
+	transform: translateY(-50%) scale(0);
+	position: absolute;
+	top: 50%;
+	left: 0;
+	opacity: 0;
+	transition: all 0.4s linear;
+}
+.box:hover .box-content{
+	transform: translateY(-50%) scale(1);
+	opacity: 1;
+	border-radius: 30px;
+}
+.box .box-content .title1{
+	font-size: 45px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	
+	margin: 0;
+}
+
+.box .box-content .post{
+	font-size: 20px;
+	text-transform: capitalize;
+}
